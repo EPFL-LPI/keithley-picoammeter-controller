@@ -1,0 +1,799 @@
+80 INFO: PyInstaller: 3.4
+80 INFO: Python: 3.7.2
+81 INFO: Platform: Windows-10-10.0.17134-SP0
+86 INFO: wrote C:\Users\carls\Documents\Python Scripts\picoammeter\app\target\PyInstaller\picoammeter.spec
+86 DEBUG: Testing for UPX ...
+89 INFO: UPX is not available.
+90 DEBUG: script: C:\Users\carls\Documents\Python Scripts\picoammeter\app\src\main\python\main.py
+91 INFO: Extending PYTHONPATH with paths
+['C:\\Users\\carls\\Documents\\Python '
+ 'Scripts\\picoammeter\\app\\src\\main\\python',
+ 'C:\\Users\\carls\\Documents\\Python '
+ 'Scripts\\picoammeter\\app\\target\\PyInstaller']
+91 INFO: checking Analysis
+95 INFO: Building because custom_runtime_hooks changed
+95 INFO: Initializing module dependency graph...
+100 INFO: Initializing module graph hooks...
+103 INFO: Analyzing base_library.zip ...
+103 DEBUG: Collecting submodules for collections
+220 DEBUG: collect_submodules - Found submodules: {'collections', 'collections.abc'}
+220 DEBUG: Collecting submodules for encodings
+337 DEBUG: collect_submodules - Found submodules: {'encodings.cp861', 'encodings.johab', 'encodings.ascii', 'encodings.iso8859_16', 'encodings.unicode_internal', 'encodings.utf_7', 'encodings.utf_16_be', 'encodings.tis_620', 'encodings.cp866', 'encodings.cp1255', 'encodings.iso8859_1', 'encodings.cp932', 'encodings.mbcs', 'encodings.cp855', 'encodings.latin_1', 'encodings.mac_centeuro', 'encodings.big5hkscs', 'encodings.cp65001', 'encodings.koi8_t', 'encodings.shift_jis', 'encodings.cp863', 'encodings.cp424', 'encodings.iso8859_4', 'encodings.cp1140', 'encodings.iso8859_2', 'encodings.hex_codec', 'encodings.cp856', 'encodings.cp949', 'encodings.iso8859_7', 'encodings.cp1006', 'encodings.iso2022_jp_ext', 'encodings.cp858', 'encodings.utf_16_le', 'encodings.iso2022_jp_3', 'encodings.punycode', 'encodings.mac_latin2', 'encodings.mac_arabic', 'encodings.cp1125', 'encodings.cp1254', 'encodings.cp1026', 'encodings.iso8859_6', 'encodings.cp1250', 'encodings.shift_jis_2004', 'encodings.mac_romanian', 'encodings.cp950', 'encodings.cp1252', 'encodings.iso2022_kr', 'encodings.mac_greek', 'encodings.unicode_escape', 'encodings.gbk', 'encodings.cp874', 'encodings.iso8859_11', 'encodings.mac_roman', 'encodings.euc_jp', 'encodings.cp862', 'encodings.euc_jisx0213', 'encodings.iso2022_jp_2004', 'encodings.oem', 'encodings.zlib_codec', 'encodings.big5', 'encodings.cp437', 'encodings.euc_jis_2004', 'encodings.cp852', 'encodings.charmap', 'encodings.palmos', 'encodings.shift_jisx0213', 'encodings.cp1253', 'encodings', 'encodings.utf_8', 'encodings.cp720', 'encodings.gb2312', 'encodings.euc_kr', 'encodings.iso2022_jp_1', 'encodings.cp273', 'encodings.cp865', 'encodings.mac_turkish', 'encodings.cp1257', 'encodings.iso8859_3', 'encodings.idna', 'encodings.cp850', 'encodings.cp857', 'encodings.undefined', 'encodings.cp1251', 'encodings.utf_16', 'encodings.mac_cyrillic', 'encodings.cp875', 'encodings.cp869', 'encodings.iso8859_9', 'encodings.koi8_r', 'encodings.raw_unicode_escape', 'encodings.koi8_u', 'encodings.mac_croatian', 'encodings.kz1048', 'encodings.cp500', 'encodings.cp775', 'encodings.cp737', 'encodings.mac_iceland', 'encodings.iso2022_jp', 'encodings.iso8859_5', 'encodings.iso2022_jp_2', 'encodings.utf_32', 'encodings.utf_32_be', 'encodings.cp037', 'encodings.utf_32_le', 'encodings.base64_codec', 'encodings.cp860', 'encodings.quopri_codec', 'encodings.cp1256', 'encodings.cp1258', 'encodings.hp_roman8', 'encodings.iso8859_8', 'encodings.ptcp154', 'encodings.utf_8_sig', 'encodings.mac_farsi', 'encodings.gb18030', 'encodings.aliases', 'encodings.cp864', 'encodings.iso8859_14', 'encodings.iso8859_10', 'encodings.iso8859_15', 'encodings.rot_13', 'encodings.bz2_codec', 'encodings.uu_codec', 'encodings.hz', 'encodings.iso8859_13'}
+4610 DEBUG: Adding python files to base_library.zip
+4676 DEBUG: Hidden import: codecs
+4676 DEBUG: Hidden import 'codecs' already found
+4676 INFO: running Analysis Analysis-00.toc
+4676 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\python.exe
+4679 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\python.exe:
+4679 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+4680 INFO: Adding Microsoft.Windows.Common-Controls to dependent assemblies of final executable
+  required by c:\users\carls\appdata\local\programs\python\python37-32\python.exe
+4680 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+4863 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python.exe
+5048 WARNING: lib not found: api-ms-win-crt-locale-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python.exe
+5221 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python.exe
+5223 DEBUG: Adding VCRUNTIME140.dll dependency of python.exe from c:\users\carls\appdata\local\programs\python\python37-32\VCRUNTIME140.dll
+5226 DEBUG: Adding python37.dll dependency of python.exe from c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+5229 DEBUG: Skipping KERNEL32.dll dependency of python.exe
+5400 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python.exe
+5573 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python.exe
+5573 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\VCRUNTIME140.dll
+5751 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\VCRUNTIME140.dll
+5920 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\VCRUNTIME140.dll
+5924 DEBUG: Skipping KERNEL32.dll dependency of VCRUNTIME140.dll
+6093 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\VCRUNTIME140.dll
+6262 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\VCRUNTIME140.dll
+6432 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\VCRUNTIME140.dll
+6432 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+6433 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll:
+6434 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+6434 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+6617 DEBUG: Skipping VERSION.dll dependency of python37.dll
+6795 WARNING: lib not found: api-ms-win-crt-conio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+6966 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+7204 WARNING: lib not found: api-ms-win-crt-locale-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+7406 WARNING: lib not found: api-ms-win-crt-process-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+7578 WARNING: lib not found: api-ms-win-crt-environment-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+7581 DEBUG: Skipping ADVAPI32.dll dependency of python37.dll
+7585 DEBUG: Skipping WS2_32.dll dependency of python37.dll
+7755 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+7758 DEBUG: Skipping SHLWAPI.dll dependency of python37.dll
+7928 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+8099 WARNING: lib not found: api-ms-win-crt-time-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+8269 WARNING: lib not found: api-ms-win-crt-filesystem-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+8272 DEBUG: Skipping KERNEL32.dll dependency of python37.dll
+8443 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+8613 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+8784 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+8787 INFO: Caching module hooks...
+8797 INFO: Analyzing C:\Users\carls\Documents\Python Scripts\picoammeter\app\src\main\python\main.py
+10115 INFO: Processing pre-find module path hook   distutils
+11337 INFO: Loading module hooks...
+11337 INFO: Loading module hook "hook-distutils.py"...
+11354 INFO: Loading module hook "hook-encodings.py"...
+11356 DEBUG: Collecting submodules for encodings
+11764 DEBUG: collect_submodules - Found submodules: {'encodings.cp861', 'encodings.johab', 'encodings.ascii', 'encodings.iso8859_16', 'encodings.unicode_internal', 'encodings.utf_7', 'encodings.utf_16_be', 'encodings.tis_620', 'encodings.cp866', 'encodings.cp1255', 'encodings.iso8859_1', 'encodings.cp932', 'encodings.mbcs', 'encodings.cp855', 'encodings.latin_1', 'encodings.mac_centeuro', 'encodings.big5hkscs', 'encodings.cp65001', 'encodings.koi8_t', 'encodings.shift_jis', 'encodings.cp863', 'encodings.cp424', 'encodings.iso8859_4', 'encodings.cp1140', 'encodings.iso8859_2', 'encodings.hex_codec', 'encodings.cp856', 'encodings.cp949', 'encodings.iso8859_7', 'encodings.cp1006', 'encodings.iso2022_jp_ext', 'encodings.cp858', 'encodings.utf_16_le', 'encodings.iso2022_jp_3', 'encodings.punycode', 'encodings.mac_latin2', 'encodings.mac_arabic', 'encodings.cp1125', 'encodings.cp1254', 'encodings.cp1026', 'encodings.iso8859_6', 'encodings.cp1250', 'encodings.shift_jis_2004', 'encodings.mac_romanian', 'encodings.cp950', 'encodings.cp1252', 'encodings.iso2022_kr', 'encodings.mac_greek', 'encodings.unicode_escape', 'encodings.gbk', 'encodings.cp874', 'encodings.iso8859_11', 'encodings.mac_roman', 'encodings.euc_jp', 'encodings.cp862', 'encodings.euc_jisx0213', 'encodings.iso2022_jp_2004', 'encodings.oem', 'encodings.zlib_codec', 'encodings.big5', 'encodings.cp437', 'encodings.euc_jis_2004', 'encodings.cp852', 'encodings.charmap', 'encodings.palmos', 'encodings.shift_jisx0213', 'encodings.cp1253', 'encodings', 'encodings.utf_8', 'encodings.cp720', 'encodings.gb2312', 'encodings.euc_kr', 'encodings.iso2022_jp_1', 'encodings.cp273', 'encodings.cp865', 'encodings.mac_turkish', 'encodings.cp1257', 'encodings.iso8859_3', 'encodings.idna', 'encodings.cp850', 'encodings.cp857', 'encodings.undefined', 'encodings.cp1251', 'encodings.utf_16', 'encodings.mac_cyrillic', 'encodings.cp875', 'encodings.cp869', 'encodings.iso8859_9', 'encodings.koi8_r', 'encodings.raw_unicode_escape', 'encodings.koi8_u', 'encodings.mac_croatian', 'encodings.kz1048', 'encodings.cp500', 'encodings.cp775', 'encodings.cp737', 'encodings.mac_iceland', 'encodings.iso2022_jp', 'encodings.iso8859_5', 'encodings.iso2022_jp_2', 'encodings.utf_32', 'encodings.utf_32_be', 'encodings.cp037', 'encodings.utf_32_le', 'encodings.base64_codec', 'encodings.cp860', 'encodings.quopri_codec', 'encodings.cp1256', 'encodings.cp1258', 'encodings.hp_roman8', 'encodings.iso8859_8', 'encodings.ptcp154', 'encodings.utf_8_sig', 'encodings.mac_farsi', 'encodings.gb18030', 'encodings.aliases', 'encodings.cp864', 'encodings.iso8859_14', 'encodings.iso8859_10', 'encodings.iso8859_15', 'encodings.rot_13', 'encodings.bz2_codec', 'encodings.uu_codec', 'encodings.hz', 'encodings.iso8859_13'}
+11774 INFO: Loading module hook "hook-pkg_resources.py"...
+11775 DEBUG: Collecting submodules for pkg_resources._vendor
+12937 DEBUG: collect_submodules - Found submodules: {'pkg_resources._vendor.pyparsing', 'pkg_resources._vendor.packaging._compat', 'pkg_resources._vendor.packaging.__about__', 'pkg_resources._vendor', 'pkg_resources._vendor.packaging.version', 'pkg_resources._vendor.appdirs', 'pkg_resources._vendor.packaging.utils', 'pkg_resources._vendor.packaging.requirements', 'pkg_resources._vendor.packaging.markers', 'pkg_resources._vendor.packaging.specifiers', 'pkg_resources._vendor.packaging', 'pkg_resources._vendor.six', 'pkg_resources._vendor.packaging._structures'}
+13307 INFO: Processing pre-safe import module hook   win32com
+13322 DEBUG: win32com: extending __path__ with dir 'c:\\users\\carls\\appdata\\local\\programs\\python\\python37-32\\lib\\site-packages\\win32comext'
+13705 INFO: Loading module hook "hook-pydoc.py"...
+13719 INFO: Loading module hook "hook-PyQt5.py"...
+14022 WARNING: Hidden import "PyQt5.sip" not found!
+14022 INFO: Loading module hook "hook-PyQt5.QtCore.py"...
+14024 DEBUG: add_qt5_dependencies: Examining c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtCore.pyd, based on hook of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\hooks\hook-PyQt5.QtCore.py.
+14199 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+14203 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll -> parsed lib qt5core
+14203 DEBUG: add_qt5_dependencies: Import of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll.
+14256 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\mpr.dll -> parsed lib mpr
+14432 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+14435 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\vcruntime140.dll -> parsed lib vcruntime140
+14604 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+14608 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\ws2_32.dll -> parsed lib ws2_32
+14777 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+14792 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\shell32.dll -> parsed lib shell32
+14796 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\kernel32.dll -> parsed lib kernel32
+14967 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+15150 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+15154 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\msvcp140.dll -> parsed lib msvcp140
+15156 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\python3.dll -> parsed lib python3
+15159 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\version.dll -> parsed lib version
+15341 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+15345 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\advapi32.dll -> parsed lib advapi32
+15515 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+15519 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\winmm.dll -> parsed lib winmm
+15522 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\user32.dll -> parsed lib user32
+15712 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+15882 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+16050 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+16054 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\ole32.dll -> parsed lib ole32
+16065 DEBUG: add_qt5_dependencies: imports from hook-PyQt5.QtCore:
+  hiddenimports = ['PyQt5.QtCore']
+  binaries = []
+  datas = [('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/translations\\qtbase_*.qm', 'PyQt5\\Qt\\translations')]
+16079 INFO: Loading module hook "hook-PyQt5.QtGui.py"...
+16081 DEBUG: add_qt5_dependencies: Examining c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtGui.pyd, based on hook of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\hooks\hook-PyQt5.QtGui.py.
+16089 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll -> parsed lib qt5core
+16089 DEBUG: add_qt5_dependencies: Import of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll.
+16140 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\mpr.dll -> parsed lib mpr
+16308 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+16310 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\vcruntime140.dll -> parsed lib vcruntime140
+16477 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+16481 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\ws2_32.dll -> parsed lib ws2_32
+16654 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+16658 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\shell32.dll -> parsed lib shell32
+16661 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\kernel32.dll -> parsed lib kernel32
+16835 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+17021 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+17025 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\msvcp140.dll -> parsed lib msvcp140
+17029 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll -> parsed lib qt5gui
+17029 DEBUG: add_qt5_dependencies: Import of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll.
+17139 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\python3.dll -> parsed lib python3
+17142 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\version.dll -> parsed lib version
+17146 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll -> parsed lib qt5core
+17146 DEBUG: add_qt5_dependencies: Import of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll.
+17198 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\advapi32.dll -> parsed lib advapi32
+17370 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+17374 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\winmm.dll -> parsed lib winmm
+17544 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+17714 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+17717 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\mpr.dll -> parsed lib mpr
+17721 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\ole32.dll -> parsed lib ole32
+17895 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+17899 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\ws2_32.dll -> parsed lib ws2_32
+18071 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+18075 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\shell32.dll -> parsed lib shell32
+18078 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\kernel32.dll -> parsed lib kernel32
+18081 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\msvcp140.dll -> parsed lib msvcp140
+18084 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\version.dll -> parsed lib version
+18259 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+18262 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\user32.dll -> parsed lib user32
+18438 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+18608 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+18610 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\vcruntime140.dll -> parsed lib vcruntime140
+18785 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+18788 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\gdi32.dll -> parsed lib gdi32
+18981 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+19165 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+19167 DEBUG: Found plugin files ['C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qgif.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qicns.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qico.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qjpeg.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qsvg.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qtga.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qtiff.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qwbmp.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qwebp.dll'] for plugin 'imageformats
+19168 DEBUG: Found plugin files ['C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qminimal.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qoffscreen.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qwindows.dll'] for plugin 'platforms
+19168 DEBUG: Found plugin files [] for plugin 'platforminputcontexts
+19168 DEBUG: Found plugin files [] for plugin 'accessible
+19168 DEBUG: Found plugin files ['C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\iconengines\\qsvgicon.dll'] for plugin 'iconengines
+19169 DEBUG: Found plugin files [] for plugin 'platformthemes
+19169 DEBUG: Found plugin files [] for plugin 'styles
+19179 DEBUG: add_qt5_dependencies: imports from hook-PyQt5.QtGui:
+  hiddenimports = ['PyQt5.QtGui', 'PyQt5.QtCore']
+  binaries = [('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qgif.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qicns.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qico.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qjpeg.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qsvg.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qtga.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qtiff.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qwbmp.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qwebp.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qminimal.dll', 'PyQt5\\Qt\\plugins\\platforms'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qoffscreen.dll', 'PyQt5\\Qt\\plugins\\platforms'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qwindows.dll', 'PyQt5\\Qt\\plugins\\platforms'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\iconengines\\qsvgicon.dll', 'PyQt5\\Qt\\plugins\\iconengines')]
+  datas = [('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/translations\\qtbase_*.qm', 'PyQt5\\Qt\\translations')]
+19196 INFO: Loading module hook "hook-PyQt5.QtNetwork.py"...
+19213 DEBUG: add_qt5_dependencies: Examining c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtNetwork.pyd, based on hook of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\hooks\hook-PyQt5.QtNetwork.py.
+19221 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll -> parsed lib qt5core
+19221 DEBUG: add_qt5_dependencies: Import of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll.
+19274 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\mpr.dll -> parsed lib mpr
+19552 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+19555 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\vcruntime140.dll -> parsed lib vcruntime140
+19560 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5network.dll -> parsed lib qt5network
+19560 DEBUG: add_qt5_dependencies: Import of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5network.dll.
+19843 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+19847 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\ws2_32.dll -> parsed lib ws2_32
+20019 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+20023 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\shell32.dll -> parsed lib shell32
+20026 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\kernel32.dll -> parsed lib kernel32
+20231 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+20470 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+20474 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\msvcp140.dll -> parsed lib msvcp140
+20479 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\dnsapi.dll -> parsed lib dnsapi
+20481 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\python3.dll -> parsed lib python3
+20485 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\version.dll -> parsed lib version
+20498 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\crypt32.dll -> parsed lib crypt32
+20502 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll -> parsed lib qt5core
+20502 DEBUG: add_qt5_dependencies: Import of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll.
+20555 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\advapi32.dll -> parsed lib advapi32
+20782 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+20786 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\winmm.dll -> parsed lib winmm
+20790 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\iphlpapi.dll -> parsed lib iphlpapi
+20977 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+21162 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+21166 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\mpr.dll -> parsed lib mpr
+21169 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\ole32.dll -> parsed lib ole32
+21173 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\ws2_32.dll -> parsed lib ws2_32
+21352 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+21356 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\shell32.dll -> parsed lib shell32
+21360 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\kernel32.dll -> parsed lib kernel32
+21363 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\msvcp140.dll -> parsed lib msvcp140
+21366 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\version.dll -> parsed lib version
+21540 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+21544 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\user32.dll -> parsed lib user32
+21729 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+21927 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+21930 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\vcruntime140.dll -> parsed lib vcruntime140
+22111 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+22298 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+22483 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+22484 DEBUG: Found plugin files ['C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\bearer\\qgenericbearer.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\bearer\\qnativewifibearer.dll'] for plugin 'bearer
+22494 DEBUG: add_qt5_dependencies: imports from hook-PyQt5.QtNetwork:
+  hiddenimports = ['PyQt5.QtNetwork', 'PyQt5.QtCore']
+  binaries = [('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\bearer\\qgenericbearer.dll', 'PyQt5\\Qt\\plugins\\bearer'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\bearer\\qnativewifibearer.dll', 'PyQt5\\Qt\\plugins\\bearer')]
+  datas = [('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/translations\\qtbase_*.qm', 'PyQt5\\Qt\\translations')]
+22507 INFO: Loading module hook "hook-PyQt5.QtWidgets.py"...
+22509 DEBUG: add_qt5_dependencies: Examining c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtWidgets.pyd, based on hook of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\hooks\hook-PyQt5.QtWidgets.py.
+22518 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll -> parsed lib qt5core
+22518 DEBUG: add_qt5_dependencies: Import of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll.
+22570 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\mpr.dll -> parsed lib mpr
+22574 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5widgets.dll -> parsed lib qt5widgets
+22574 DEBUG: add_qt5_dependencies: Import of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5widgets.dll.
+22645 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\vcruntime140.dll -> parsed lib vcruntime140
+22819 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+22823 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\gdi32.dll -> parsed lib gdi32
+23012 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+23186 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+23190 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll -> parsed lib qt5gui
+23190 DEBUG: add_qt5_dependencies: Import of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll.
+23325 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\dwmapi.dll -> parsed lib dwmapi
+23329 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\uxtheme.dll -> parsed lib uxtheme
+23331 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\python3.dll -> parsed lib python3
+23335 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll -> parsed lib qt5core
+23335 DEBUG: add_qt5_dependencies: Import of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll.
+23387 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\advapi32.dll -> parsed lib advapi32
+23564 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+23568 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\winmm.dll -> parsed lib winmm
+23779 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+24018 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+24021 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\mpr.dll -> parsed lib mpr
+24026 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\ole32.dll -> parsed lib ole32
+24216 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+24220 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\ws2_32.dll -> parsed lib ws2_32
+24411 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+24476 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\shell32.dll -> parsed lib shell32
+24482 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\kernel32.dll -> parsed lib kernel32
+24485 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\msvcp140.dll -> parsed lib msvcp140
+24489 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\version.dll -> parsed lib version
+24732 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+24737 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\user32.dll -> parsed lib user32
+24935 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+25116 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+25295 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+25298 DEBUG: add_qt5_dependencies: raw lib c:\users\carls\appdata\local\programs\python\python37-32\vcruntime140.dll -> parsed lib vcruntime140
+25302 DEBUG: add_qt5_dependencies: raw lib C:\WINDOWS\system32\gdi32.dll -> parsed lib gdi32
+25492 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+25671 DEBUG: add_qt5_dependencies: raw lib  -> parsed lib 
+25672 DEBUG: Found plugin files ['C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qgif.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qicns.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qico.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qjpeg.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qsvg.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qtga.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qtiff.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qwbmp.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qwebp.dll'] for plugin 'imageformats
+25673 DEBUG: Found plugin files ['C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qminimal.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qoffscreen.dll', 'C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qwindows.dll'] for plugin 'platforms
+25674 DEBUG: Found plugin files [] for plugin 'platforminputcontexts
+25674 DEBUG: Found plugin files [] for plugin 'accessible
+25675 DEBUG: Found plugin files ['C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\iconengines\\qsvgicon.dll'] for plugin 'iconengines
+25675 DEBUG: Found plugin files [] for plugin 'platformthemes
+25676 DEBUG: Found plugin files [] for plugin 'styles
+25686 DEBUG: add_qt5_dependencies: imports from hook-PyQt5.QtWidgets:
+  hiddenimports = ['PyQt5.QtGui', 'PyQt5.QtWidgets', 'PyQt5.QtCore']
+  binaries = [('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qgif.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qicns.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qico.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qjpeg.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qsvg.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qtga.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qtiff.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qwbmp.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\imageformats\\qwebp.dll', 'PyQt5\\Qt\\plugins\\imageformats'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qminimal.dll', 'PyQt5\\Qt\\plugins\\platforms'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qoffscreen.dll', 'PyQt5\\Qt\\plugins\\platforms'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\platforms\\qwindows.dll', 'PyQt5\\Qt\\plugins\\platforms'), ('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/plugins\\iconengines\\qsvgicon.dll', 'PyQt5\\Qt\\plugins\\iconengines')]
+  datas = [('C:/users/carls/appdata/local/programs/python/python37-32/lib/site-packages/PyQt5/Qt/translations\\qtbase_*.qm', 'PyQt5\\Qt\\translations')]
+25704 INFO: Loading module hook "hook-pythoncom.py"...
+27308 INFO: Loading module hook "hook-pywintypes.py"...
+27707 INFO: Loading module hook "hook-sqlite3.py"...
+27710 DEBUG: Collecting submodules for sqlite3
+27873 DEBUG: collect_submodules - Found submodules: {'sqlite3.test.backup', 'sqlite3.test.hooks', 'sqlite3.test.userfunctions', 'sqlite3.test.dbapi', 'sqlite3', 'sqlite3.test.types', 'sqlite3.dbapi2', 'sqlite3.test.factory', 'sqlite3.test.dump', 'sqlite3.test.transactions', 'sqlite3.test', 'sqlite3.test.regression', 'sqlite3.dump'}
+27894 INFO: Loading module hook "hook-sysconfig.py"...
+27896 INFO: Loading module hook "hook-win32com.py"...
+28883 INFO: Loading module hook "hook-xml.py"...
+29492 DEBUG: Looking for egg data files...
+29492 INFO: Looking for ctypes DLLs
+29492 DEBUG: Scanning serial.serialwin32 for shared libraries or dlls
+29501 DEBUG: Scanning serial.win32 for shared libraries or dlls
+29508 DEBUG: Scanning serial.tools.list_ports_windows for shared libraries or dlls
+29531 DEBUG: Scanning serial.tools.list_ports_osx for shared libraries or dlls
+29535 DEBUG: Scanning pyvisa.ctwrapper.cthelper for shared libraries or dlls
+29536 DEBUG: Scanning pyvisa.ctwrapper.types for shared libraries or dlls
+29539 DEBUG: Scanning pyvisa.ctwrapper.functions for shared libraries or dlls
+29557 DEBUG: Scanning uuid for shared libraries or dlls
+29571 DEBUG: Scanning pkg_resources._vendor.appdirs for shared libraries or dlls
+29578 INFO: Analyzing run-time hooks ...
+29578 INFO: Including custom run-time hook 'C:\\Users\\carls\\AppData\\Local\\Temp\\tmpi_9e1m7j\\fbs_pyinstaller_hook.py'
+29585 INFO: Including run-time hook 'pyi_rth_pkgres.py'
+29601 INFO: Including run-time hook 'pyi_rth_win32comgenpy.py'
+29608 INFO: Including run-time hook 'pyi_rth_qt5.py'
+29623 INFO: Looking for dynamic libraries
+29626 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qgif.dll
+29635 DEBUG: Adding Qt5Core.dll dependency of qgif.dll from c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+29638 DEBUG: Skipping KERNEL32.dll dependency of qgif.dll
+29814 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qgif.dll
+29818 DEBUG: Adding Qt5Gui.dll dependency of qgif.dll from c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll
+29994 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qgif.dll
+30169 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qgif.dll
+30169 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\bearer\qnativewifibearer.dll
+30182 DEBUG: Adding Qt5Network.dll dependency of qnativewifibearer.dll from c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5network.dll
+30185 DEBUG: Skipping KERNEL32.dll dependency of qnativewifibearer.dll
+30361 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\bearer\qnativewifibearer.dll
+30537 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\bearer\qnativewifibearer.dll
+30537 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qjpeg.dll
+30718 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qjpeg.dll
+30897 WARNING: lib not found: api-ms-win-crt-environment-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qjpeg.dll
+31072 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qjpeg.dll
+31076 DEBUG: Skipping KERNEL32.dll dependency of qjpeg.dll
+31252 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qjpeg.dll
+31431 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qjpeg.dll
+31431 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qico.dll
+31443 DEBUG: Skipping KERNEL32.dll dependency of qico.dll
+31618 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qico.dll
+31797 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qico.dll
+31797 DEBUG: Analyzing C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pythoncom37.dll
+31826 DEBUG: Skipping ole32.dll dependency of pythoncom37.dll
+32002 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pythoncom37.dll
+32177 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pythoncom37.dll
+32180 DEBUG: Skipping USER32.dll dependency of pythoncom37.dll
+32184 DEBUG: Skipping KERNEL32.dll dependency of pythoncom37.dll
+32358 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pythoncom37.dll
+32536 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pythoncom37.dll
+32539 DEBUG: Adding pywintypes37.dll dependency of pythoncom37.dll from C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pywintypes37.dll
+32542 DEBUG: Skipping OLEAUT32.dll dependency of pythoncom37.dll
+32725 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pythoncom37.dll
+32725 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\ssleay32.dll
+32931 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\ssleay32.dll
+33107 WARNING: lib not found: api-ms-win-crt-time-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\ssleay32.dll
+33110 DEBUG: Adding LIBEAY32.dll dependency of ssleay32.dll from C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+33113 DEBUG: Skipping KERNEL32.dll dependency of ssleay32.dll
+33290 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\ssleay32.dll
+33465 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\ssleay32.dll
+33465 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qminimal.dll
+33476 DEBUG: Skipping ole32.dll dependency of qminimal.dll
+33652 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qminimal.dll
+33659 DEBUG: Skipping ADVAPI32.dll dependency of qminimal.dll
+33834 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qminimal.dll
+34009 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qminimal.dll
+34013 DEBUG: Skipping USER32.dll dependency of qminimal.dll
+34016 DEBUG: Skipping GDI32.dll dependency of qminimal.dll
+34020 DEBUG: Skipping KERNEL32.dll dependency of qminimal.dll
+34195 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qminimal.dll
+34373 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qminimal.dll
+34560 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qminimal.dll
+34738 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qminimal.dll
+34739 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\iconengines\qsvgicon.dll
+34751 DEBUG: Adding Qt5Svg.dll dependency of qsvgicon.dll from c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5svg.dll
+34754 DEBUG: Skipping KERNEL32.dll dependency of qsvgicon.dll
+34933 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\iconengines\qsvgicon.dll
+35112 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\iconengines\qsvgicon.dll
+35112 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+35757 WARNING: lib not found: api-ms-win-crt-conio-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+35933 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+36109 WARNING: lib not found: api-ms-win-crt-environment-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+36112 DEBUG: Skipping ADVAPI32.dll dependency of libeay32.dll
+36116 DEBUG: Skipping WS2_32.dll dependency of libeay32.dll
+36291 WARNING: lib not found: api-ms-win-crt-time-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+36466 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+36646 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+36819 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+36994 WARNING: lib not found: api-ms-win-crt-filesystem-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+36997 DEBUG: Skipping USER32.dll dependency of libeay32.dll
+37001 DEBUG: Skipping GDI32.dll dependency of libeay32.dll
+37004 DEBUG: Skipping KERNEL32.dll dependency of libeay32.dll
+37180 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+37355 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+37531 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\libeay32.dll
+37532 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qoffscreen.dll
+37714 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qoffscreen.dll
+37894 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qoffscreen.dll
+38071 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qoffscreen.dll
+38246 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qoffscreen.dll
+38249 DEBUG: Skipping KERNEL32.dll dependency of qoffscreen.dll
+38424 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qoffscreen.dll
+38604 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qoffscreen.dll
+38777 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qoffscreen.dll
+38777 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qicns.dll
+38959 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qicns.dll
+38962 DEBUG: Skipping KERNEL32.dll dependency of qicns.dll
+39150 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qicns.dll
+39328 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qicns.dll
+39328 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qwindows.dll
+39512 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qwindows.dll
+39687 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qwindows.dll
+39691 DEBUG: Skipping IMM32.dll dependency of qwindows.dll
+39694 DEBUG: Skipping GDI32.dll dependency of qwindows.dll
+39869 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qwindows.dll
+40045 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qwindows.dll
+40052 DEBUG: Skipping dwmapi.dll dependency of qwindows.dll
+40059 DEBUG: Skipping ADVAPI32.dll dependency of qwindows.dll
+40063 DEBUG: Skipping WINMM.dll dependency of qwindows.dll
+40238 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qwindows.dll
+40410 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qwindows.dll
+40414 DEBUG: Skipping ole32.dll dependency of qwindows.dll
+40587 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\platforms\qwindows.dll
+40600 DEBUG: Skipping SHELL32.dll dependency of qwindows.dll
+40603 DEBUG: Skipping KERNEL32.dll dependency of qwindows.dll
+40606 DEBUG: Skipping MSVCP140.dll dependency of qwindows.dll
+40610 DEBUG: Skipping USER32.dll dependency of qwindows.dll
+40613 DEBUG: Skipping OLEAUT32.dll dependency of qwindows.dll
+40613 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\bearer\qgenericbearer.dll
+40629 DEBUG: Skipping IPHLPAPI.DLL dependency of qgenericbearer.dll
+40632 DEBUG: Skipping KERNEL32.dll dependency of qgenericbearer.dll
+40809 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\bearer\qgenericbearer.dll
+40984 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\bearer\qgenericbearer.dll
+40984 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qsvg.dll
+41000 DEBUG: Skipping KERNEL32.dll dependency of qsvg.dll
+41184 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qsvg.dll
+41371 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qsvg.dll
+41371 DEBUG: Analyzing C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pywintypes37.dll
+41392 DEBUG: Skipping ole32.dll dependency of pywintypes37.dll
+41574 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pywintypes37.dll
+41578 DEBUG: Skipping ADVAPI32.dll dependency of pywintypes37.dll
+41758 WARNING: lib not found: api-ms-win-crt-time-l1-1-0.dll dependency of C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pywintypes37.dll
+41942 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pywintypes37.dll
+41946 DEBUG: Skipping USER32.dll dependency of pywintypes37.dll
+41949 DEBUG: Skipping KERNEL32.dll dependency of pywintypes37.dll
+42125 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pywintypes37.dll
+42300 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pywintypes37.dll
+42303 DEBUG: Skipping OLEAUT32.dll dependency of pywintypes37.dll
+42478 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of C:\Users\carls\AppData\Local\Programs\Python\Python37-32\lib\site-packages\pywin32_system32\pywintypes37.dll
+42478 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtiff.dll
+42671 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtiff.dll
+42851 WARNING: lib not found: api-ms-win-crt-environment-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtiff.dll
+43029 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtiff.dll
+43203 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtiff.dll
+43378 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtiff.dll
+43381 DEBUG: Skipping KERNEL32.dll dependency of qtiff.dll
+43557 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtiff.dll
+43736 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtiff.dll
+43912 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtiff.dll
+43912 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtga.dll
+43924 DEBUG: Skipping KERNEL32.dll dependency of qtga.dll
+44100 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtga.dll
+44279 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtga.dll
+44455 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qtga.dll
+44455 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qwebp.dll
+44643 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qwebp.dll
+44824 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qwebp.dll
+44827 DEBUG: Skipping KERNEL32.dll dependency of qwebp.dll
+45003 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qwebp.dll
+45182 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qwebp.dll
+45182 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qwbmp.dll
+45194 DEBUG: Skipping KERNEL32.dll dependency of qwbmp.dll
+45368 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qwbmp.dll
+45547 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\plugins\imageformats\qwbmp.dll
+45547 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\win32trace.pyd
+45585 DEBUG: Skipping ADVAPI32.dll dependency of win32trace.pyd
+45588 DEBUG: Skipping KERNEL32.dll dependency of win32trace.pyd
+45786 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\win32trace.pyd
+45961 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\win32trace.pyd
+45961 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\win32ui.pyd
+46161 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\win32ui.pyd
+46164 DEBUG: Adding mfc140u.dll dependency of win32ui.pyd from c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+46337 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\win32ui.pyd
+46511 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\win32ui.pyd
+46515 DEBUG: Skipping SHELL32.dll dependency of win32ui.pyd
+46518 DEBUG: Skipping USER32.dll dependency of win32ui.pyd
+46522 DEBUG: Skipping GDI32.dll dependency of win32ui.pyd
+46525 DEBUG: Skipping KERNEL32.dll dependency of win32ui.pyd
+46528 DEBUG: Skipping WINSPOOL.DRV dependency of win32ui.pyd
+46704 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\win32ui.pyd
+46721 DEBUG: Skipping COMCTL32.dll dependency of win32ui.pyd
+46725 DEBUG: Skipping OLEAUT32.dll dependency of win32ui.pyd
+46899 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\win32ui.pyd
+47072 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\win32ui.pyd
+47072 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\_win32sysloader.pyd
+47248 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\_win32sysloader.pyd
+47252 DEBUG: Skipping KERNEL32.dll dependency of _win32sysloader.pyd
+47252 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\win32api.pyd
+47260 DEBUG: Skipping VERSION.dll dependency of win32api.pyd
+47263 DEBUG: Skipping ADVAPI32.dll dependency of win32api.pyd
+47438 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\win32api.pyd
+47441 DEBUG: Skipping SHELL32.dll dependency of win32api.pyd
+47445 DEBUG: Skipping USER32.dll dependency of win32api.pyd
+47448 DEBUG: Skipping KERNEL32.dll dependency of win32api.pyd
+47625 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\win32api.pyd
+47808 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\win32api.pyd
+47808 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_ctypes.pyd
+47810 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_ctypes.pyd:
+47811 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+47812 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+47831 DEBUG: Skipping ole32.dll dependency of _ctypes.pyd
+48044 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_ctypes.pyd
+48047 DEBUG: Skipping KERNEL32.dll dependency of _ctypes.pyd
+48237 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_ctypes.pyd
+48240 DEBUG: Skipping OLEAUT32.dll dependency of _ctypes.pyd
+48423 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_ctypes.pyd
+48423 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32comext\shell\shell.pyd
+48434 DEBUG: Skipping ole32.dll dependency of shell.pyd
+48440 DEBUG: Skipping SHELL32.dll dependency of shell.pyd
+48446 DEBUG: Skipping KERNEL32.dll dependency of shell.pyd
+48660 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32comext\shell\shell.pyd
+48851 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32comext\shell\shell.pyd
+48855 DEBUG: Skipping OLEAUT32.dll dependency of shell.pyd
+49046 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32comext\shell\shell.pyd
+49046 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\win32wnet.pyd
+49300 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\win32wnet.pyd
+49304 DEBUG: Skipping NETAPI32.dll dependency of win32wnet.pyd
+49307 DEBUG: Skipping KERNEL32.dll dependency of win32wnet.pyd
+49518 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\win32wnet.pyd
+49740 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\win32\win32wnet.pyd
+49744 DEBUG: Skipping MPR.dll dependency of win32wnet.pyd
+49744 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_ssl.pyd
+49745 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_ssl.pyd:
+49745 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+49746 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+49764 DEBUG: Skipping CRYPT32.dll dependency of _ssl.pyd
+50006 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_ssl.pyd
+50011 DEBUG: Skipping WS2_32.dll dependency of _ssl.pyd
+50015 DEBUG: Adding libcrypto-1_1.dll dependency of _ssl.pyd from c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+50243 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_ssl.pyd
+50247 DEBUG: Skipping KERNEL32.dll dependency of _ssl.pyd
+50250 DEBUG: Adding libssl-1_1.dll dependency of _ssl.pyd from c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libssl-1_1.dll
+50251 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\pyexpat.pyd
+50252 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\pyexpat.pyd:
+50252 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+50252 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+50454 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\pyexpat.pyd
+50652 WARNING: lib not found: api-ms-win-crt-environment-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\pyexpat.pyd
+50655 DEBUG: Skipping KERNEL32.dll dependency of pyexpat.pyd
+50849 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\pyexpat.pyd
+51029 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\pyexpat.pyd
+51204 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\pyexpat.pyd
+51204 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_hashlib.pyd
+51205 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_hashlib.pyd:
+51206 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+51206 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+51215 DEBUG: Skipping KERNEL32.dll dependency of _hashlib.pyd
+51390 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_hashlib.pyd
+51391 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_lzma.pyd
+51392 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_lzma.pyd:
+51392 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+51392 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+51399 DEBUG: Skipping KERNEL32.dll dependency of _lzma.pyd
+51583 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_lzma.pyd
+51765 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_lzma.pyd
+51766 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_socket.pyd
+51767 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_socket.pyd:
+51767 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+51767 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+51774 DEBUG: Skipping WS2_32.dll dependency of _socket.pyd
+51778 DEBUG: Skipping KERNEL32.dll dependency of _socket.pyd
+51953 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_socket.pyd
+51953 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\unicodedata.pyd
+51954 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\unicodedata.pyd:
+51954 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+51955 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+52135 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\unicodedata.pyd
+52138 DEBUG: Skipping KERNEL32.dll dependency of unicodedata.pyd
+52348 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\unicodedata.pyd
+52535 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\unicodedata.pyd
+52535 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_bz2.pyd
+52537 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_bz2.pyd:
+52537 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+52537 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+52727 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_bz2.pyd
+52929 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_bz2.pyd
+52932 DEBUG: Skipping KERNEL32.dll dependency of _bz2.pyd
+53124 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_bz2.pyd
+53354 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_bz2.pyd
+53557 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_bz2.pyd
+53557 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\select.pyd
+53558 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\select.pyd:
+53559 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+53559 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+53567 DEBUG: Skipping WS2_32.dll dependency of select.pyd
+53570 DEBUG: Skipping KERNEL32.dll dependency of select.pyd
+53806 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\select.pyd
+53806 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_sqlite3.pyd
+53807 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_sqlite3.pyd:
+53807 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+53808 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+54028 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_sqlite3.pyd
+54031 DEBUG: Adding sqlite3.dll dependency of _sqlite3.pyd from c:\users\carls\appdata\local\programs\python\python37-32\DLLs\sqlite3.dll
+54034 DEBUG: Skipping KERNEL32.dll dependency of _sqlite3.pyd
+54269 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_sqlite3.pyd
+54492 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\_sqlite3.pyd
+54492 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtCore.pyd
+54716 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtCore.pyd
+54935 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtCore.pyd
+54938 DEBUG: Skipping KERNEL32.dll dependency of QtCore.pyd
+55129 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtCore.pyd
+55329 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtCore.pyd
+55516 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtCore.pyd
+55524 DEBUG: Adding python3.dll dependency of QtCore.pyd from c:\users\carls\appdata\local\programs\python\python37-32\python3.dll
+55524 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtGui.pyd
+55537 DEBUG: Skipping KERNEL32.dll dependency of QtGui.pyd
+55728 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtGui.pyd
+55922 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtGui.pyd
+55924 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\sip.pyd
+56111 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\sip.pyd
+56297 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\sip.pyd
+56300 DEBUG: Skipping KERNEL32.dll dependency of sip.pyd
+56483 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\sip.pyd
+56483 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtWidgets.pyd
+56497 DEBUG: Adding Qt5Widgets.dll dependency of QtWidgets.pyd from c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5widgets.dll
+56500 DEBUG: Skipping KERNEL32.dll dependency of QtWidgets.pyd
+56683 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtWidgets.pyd
+56873 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtWidgets.pyd
+56876 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtNetwork.pyd
+56891 DEBUG: Skipping KERNEL32.dll dependency of QtNetwork.pyd
+57072 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtNetwork.pyd
+57279 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\QtNetwork.pyd
+57281 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+57538 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+57740 WARNING: lib not found: api-ms-win-crt-filesystem-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+57950 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+58141 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+58347 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+58351 DEBUG: Skipping ADVAPI32.dll dependency of qt5core.dll
+58544 WARNING: lib not found: api-ms-win-crt-time-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+58548 DEBUG: Skipping WINMM.dll dependency of qt5core.dll
+58724 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+58914 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+58917 DEBUG: Skipping MPR.dll dependency of qt5core.dll
+58921 DEBUG: Skipping ole32.dll dependency of qt5core.dll
+58925 DEBUG: Skipping WS2_32.dll dependency of qt5core.dll
+59117 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+59132 DEBUG: Skipping SHELL32.dll dependency of qt5core.dll
+59136 DEBUG: Skipping KERNEL32.dll dependency of qt5core.dll
+59139 DEBUG: Adding MSVCP140.dll dependency of qt5core.dll from c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+59143 DEBUG: Skipping VERSION.dll dependency of qt5core.dll
+59344 WARNING: lib not found: api-ms-win-crt-environment-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5core.dll
+59348 DEBUG: Skipping USER32.dll dependency of qt5core.dll
+59348 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll
+59471 DEBUG: Skipping ole32.dll dependency of qt5gui.dll
+59721 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll
+59919 WARNING: lib not found: api-ms-win-crt-locale-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll
+60095 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll
+60286 WARNING: lib not found: api-ms-win-crt-environment-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll
+60461 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll
+60465 DEBUG: Skipping USER32.dll dependency of qt5gui.dll
+60469 DEBUG: Skipping GDI32.dll dependency of qt5gui.dll
+60472 DEBUG: Skipping KERNEL32.dll dependency of qt5gui.dll
+60663 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll
+60859 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll
+61063 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5gui.dll
+61064 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5network.dll
+61088 DEBUG: Skipping CRYPT32.dll dependency of qt5network.dll
+61263 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5network.dll
+61267 DEBUG: Skipping ADVAPI32.dll dependency of qt5network.dll
+61270 DEBUG: Skipping WS2_32.dll dependency of qt5network.dll
+61443 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5network.dll
+61447 DEBUG: Skipping IPHLPAPI.DLL dependency of qt5network.dll
+61450 DEBUG: Skipping KERNEL32.dll dependency of qt5network.dll
+61628 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5network.dll
+61632 DEBUG: Skipping DNSAPI.dll dependency of qt5network.dll
+61815 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5network.dll
+62004 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5network.dll
+62004 DEBUG: Analyzing C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+62658 WARNING: lib not found: api-ms-win-crt-conio-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+62841 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+63024 WARNING: lib not found: api-ms-win-crt-environment-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+63027 DEBUG: Skipping ADVAPI32.dll dependency of LIBEAY32.dll
+63031 DEBUG: Skipping WS2_32.dll dependency of LIBEAY32.dll
+63208 WARNING: lib not found: api-ms-win-crt-time-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+63384 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+63559 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+63733 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+63909 WARNING: lib not found: api-ms-win-crt-filesystem-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+63913 DEBUG: Skipping USER32.dll dependency of LIBEAY32.dll
+63916 DEBUG: Skipping GDI32.dll dependency of LIBEAY32.dll
+63920 DEBUG: Skipping KERNEL32.dll dependency of LIBEAY32.dll
+64095 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+64279 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+64452 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of C:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\LIBEAY32.dll
+64452 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5svg.dll
+64664 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5svg.dll
+64667 DEBUG: Skipping KERNEL32.dll dependency of qt5svg.dll
+64842 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5svg.dll
+65017 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5svg.dll
+65018 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+65843 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+66026 WARNING: lib not found: api-ms-win-crt-filesystem-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+66208 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+66211 DEBUG: Skipping IMM32.dll dependency of mfc140u.dll
+66215 DEBUG: Skipping GDI32.dll dependency of mfc140u.dll
+66393 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+66569 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+66572 DEBUG: Skipping UxTheme.dll dependency of mfc140u.dll
+66575 DEBUG: Skipping ADVAPI32.dll dependency of mfc140u.dll
+66752 WARNING: lib not found: api-ms-win-crt-time-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+66935 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+67117 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+67121 DEBUG: Skipping ole32.dll dependency of mfc140u.dll
+67125 DEBUG: Skipping SHLWAPI.dll dependency of mfc140u.dll
+67308 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+67311 DEBUG: Skipping KERNEL32.dll dependency of mfc140u.dll
+67510 WARNING: lib not found: api-ms-win-crt-multibyte-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\Pythonwin\mfc140u.dll
+67513 DEBUG: Skipping USER32.dll dependency of mfc140u.dll
+67517 DEBUG: Skipping OLEAUT32.dll dependency of mfc140u.dll
+67517 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+68871 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+69114 WARNING: lib not found: api-ms-win-crt-environment-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+69118 DEBUG: Skipping ADVAPI32.dll dependency of libcrypto-1_1.dll
+69122 DEBUG: Skipping WS2_32.dll dependency of libcrypto-1_1.dll
+69304 WARNING: lib not found: api-ms-win-crt-time-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+69545 WARNING: lib not found: api-ms-win-crt-filesystem-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+69746 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+69938 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+69942 DEBUG: Skipping USER32.dll dependency of libcrypto-1_1.dll
+69946 DEBUG: Skipping KERNEL32.dll dependency of libcrypto-1_1.dll
+70165 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+70355 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+70539 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+70736 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libcrypto-1_1.dll
+70737 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libssl-1_1.dll
+70953 WARNING: lib not found: api-ms-win-crt-time-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libssl-1_1.dll
+71138 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libssl-1_1.dll
+71141 DEBUG: Skipping KERNEL32.dll dependency of libssl-1_1.dll
+71327 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libssl-1_1.dll
+71512 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\libssl-1_1.dll
+71512 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\DLLs\sqlite3.dll
+71514 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\sqlite3.dll:
+71514 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+71514 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+71703 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\sqlite3.dll
+71885 WARNING: lib not found: api-ms-win-crt-time-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\sqlite3.dll
+72071 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\sqlite3.dll
+72075 DEBUG: Skipping KERNEL32.dll dependency of sqlite3.dll
+72271 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\sqlite3.dll
+72472 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\sqlite3.dll
+72657 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\DLLs\sqlite3.dll
+72658 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\python3.dll
+72659 DEBUG: Dependent assemblies of c:\users\carls\appdata\local\programs\python\python37-32\python3.dll:
+72659 DEBUG: *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+72659 DEBUG: Skipping assembly *_Microsoft.Windows.Common-Controls_6595b64144ccf1df_6.0.0.0_none
+72810 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5widgets.dll
+73074 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5widgets.dll
+73078 DEBUG: Skipping SHELL32.dll dependency of qt5widgets.dll
+73082 DEBUG: Skipping USER32.dll dependency of qt5widgets.dll
+73086 DEBUG: Skipping GDI32.dll dependency of qt5widgets.dll
+73090 DEBUG: Skipping dwmapi.dll dependency of qt5widgets.dll
+73094 DEBUG: Skipping KERNEL32.dll dependency of qt5widgets.dll
+73284 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5widgets.dll
+73287 DEBUG: Skipping UxTheme.dll dependency of qt5widgets.dll
+73476 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5widgets.dll
+73721 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\qt5widgets.dll
+73722 DEBUG: Analyzing c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+73969 WARNING: lib not found: api-ms-win-crt-stdio-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+74169 WARNING: lib not found: api-ms-win-crt-locale-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+74363 WARNING: lib not found: api-ms-win-crt-filesystem-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+74589 WARNING: lib not found: api-ms-win-crt-environment-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+74773 WARNING: lib not found: api-ms-win-crt-math-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+74967 WARNING: lib not found: api-ms-win-crt-time-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+75153 WARNING: lib not found: api-ms-win-crt-multibyte-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+75329 WARNING: lib not found: api-ms-win-crt-convert-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+75516 WARNING: lib not found: api-ms-win-crt-utility-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+75520 DEBUG: Skipping KERNEL32.dll dependency of MSVCP140.dll
+75704 WARNING: lib not found: api-ms-win-crt-runtime-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+75885 WARNING: lib not found: api-ms-win-crt-heap-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+76082 WARNING: lib not found: api-ms-win-crt-string-l1-1-0.dll dependency of c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyQt5\Qt\bin\MSVCP140.dll
+76082 INFO: Looking for eggs
+76082 INFO: Using Python library c:\users\carls\appdata\local\programs\python\python37-32\python37.dll
+76082 INFO: Found binding redirects: 
+[]
+79529 INFO: Warnings written to C:\Users\carls\Documents\Python Scripts\picoammeter\app\target\PyInstaller\picoammeter\warn-picoammeter.txt
+79639 INFO: Graph cross-reference written to C:\Users\carls\Documents\Python Scripts\picoammeter\app\target\PyInstaller\picoammeter\xref-picoammeter.html
+79699 INFO: Graph drawing written to C:\Users\carls\Documents\Python Scripts\picoammeter\app\target\PyInstaller\picoammeter\graph-picoammeter.dot
+79770 INFO: checking PYZ
+79772 INFO: checking PKG
+79773 INFO: Building because toc changed
+79773 INFO: Building PKG (CArchive) PKG-00.pkg
+79785 DEBUG: Compiling c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\loader\pyiboot01_bootstrap.py
+79785 DEBUG: Compiling c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\loader\pyiboot01_bootstrap.py
+79802 DEBUG: Compiling C:\Users\carls\AppData\Local\Temp\tmpi_9e1m7j\fbs_pyinstaller_hook.py
+79803 DEBUG: Compiling C:\Users\carls\AppData\Local\Temp\tmpi_9e1m7j\fbs_pyinstaller_hook.py
+79813 DEBUG: Compiling c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_pkgres.py
+79814 DEBUG: Compiling c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_pkgres.py
+79827 DEBUG: Compiling c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_win32comgenpy.py
+79828 DEBUG: Compiling c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_win32comgenpy.py
+79851 DEBUG: Compiling c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_qt5.py
+79851 DEBUG: Compiling c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\loader\rthooks\pyi_rth_qt5.py
+79852 DEBUG: Compiling C:\Users\carls\Documents\Python Scripts\picoammeter\app\src\main\python\main.py
+79853 DEBUG: Compiling C:\Users\carls\Documents\Python Scripts\picoammeter\app\src\main\python\main.py
+79873 INFO: Building PKG (CArchive) PKG-00.pkg completed successfully.
+79881 INFO: Bootloader c:\users\carls\appdata\local\programs\python\python37-32\lib\site-packages\PyInstaller\bootloader\Windows-32bit\run_d.exe
+79881 INFO: checking EXE
+79883 INFO: Building because toc changed
+79883 INFO: Building EXE from EXE-00.toc
+80072 INFO: SRCPATH [('C:\\Users\\carls\\Documents\\Python Scripts\\picoammeter\\app\\src\\main\\icons\\Icon.ico', None)]
+80072 INFO: Updating icons from ['C:\\Users\\carls\\Documents\\Python Scripts\\picoammeter\\app\\src\\main\\icons\\Icon.ico'] to C:\Users\carls\AppData\Local\Temp\tmp1xj8jft_
+80073 INFO: Writing RT_GROUP_ICON 0 resource with 20 bytes
+80073 INFO: Writing RT_ICON 1 resource with 269320 bytes
+80164 INFO: Appending archive to EXE C:\Users\carls\Documents\Python Scripts\picoammeter\app\target\PyInstaller\picoammeter\picoammeter.exe
+80246 INFO: Building EXE from EXE-00.toc completed successfully.
+80259 INFO: checking COLLECT
+80263 INFO: Removing dir C:\Users\carls\Documents\Python Scripts\picoammeter\app\target\picoammeter
+80387 INFO: Building COLLECT COLLECT-00.toc
+87211 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+Done. You can now run `target\picoammeter\picoammeter.exe`. If that
+doesn't work, see https://build-system.fman.io/troubleshooting.
